@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>HelloCpp</string>
 	<key>CFBundleExecutable</key>
-	<string>HelloCpp</string>
+	<string>asteroids</string>
 	<key>CFBundleIconFile</key>
 	<string>Icon-57.png</string>
 	<key>CFBundleIconFiles</key>
@@ -37,7 +37,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.cocos2d-x.HelloCpp</string>
+	<string>com.crashstudios.asteroids</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
