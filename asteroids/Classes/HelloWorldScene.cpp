@@ -2,6 +2,13 @@
 #include "AppMacros.h"
 USING_NS_CC;
 
+typedef struct {
+    short a;
+    int x;
+    short b;
+    short c;
+    short c2;
+} myStruct;
 
 CCScene* HelloWorld::scene()
 {
@@ -13,7 +20,14 @@ CCScene* HelloWorld::scene()
 
     // add layer as a child to scene
     scene->addChild(layer);
+    
+    short x;
+    short y;
+    
+    printf("&x= %-10x &y= %-10x\n" , &x, &y);
+    printf("size of x= %-10x" , sizeof(myStruct));
 
+    
     // return the scene
     return scene;
 }
